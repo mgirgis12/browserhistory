@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>A history of browsers</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1>A history of browsers</h1>
 
-  <h2>Table of Contents</h2>
   <ul>
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#ie">Internet Explorer</a></li>
@@ -39,7 +39,10 @@
     by W3C.
   </p>
 
-  <h2 id="ie">A brief history of IE</h2>
+  <div class="browser-columns">
+
+  <div class="browser">
+    <h2 id="ie">A brief history of IE</h2>
 
   <img
     src="https://upload.wikimedia.org/wikipedia/commons/1/18/Internet_Explorer_10%2B11_logo.svg"
@@ -70,8 +73,10 @@
     an improved phishing filter.
   </p>
 
-  <h2 id="firefox">A brief history of Firefox</h2>
+  </div>
 
+  <div class="browser">
+    <h2 id="firefox">A brief history of Firefox</h2>
   <img
     src="http://upload.wikimedia.org/wikipedia/commons/f/ff/Mozilla_Firefox_logo_2013.png"
     alt="Firefox logo"
@@ -95,7 +100,10 @@
     global browser console, a new network monitor among other things.
   </p>
 
-  <h2 id="chrome">A brief history of Chrome</h2>
+   </div>
+
+  <div class="browser">
+    <h2 id="chrome">A brief history of Chrome</h2>
 
   <img
     src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg"
@@ -121,6 +129,10 @@
     customized via transform files (.mst) - but the MSI provided with Chrome
     is only a very limited MSI wrapper fitted around the normal installer,
     and many businesses find that this arrangement does not meet their needs.
-  </p>
+   </p>
+
+  </div>
+</div>
+
 </body>
 </html>
