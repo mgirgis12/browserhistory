@@ -4,17 +4,32 @@
   <meta charset="UTF-8">
   <title>A history of browsers</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
+  <div class="container">
   <h1>A history of browsers</h1>
+  
 
-  <ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#ie">Internet Explorer</a></li>
-    <li><a href="#firefox">Firefox</a></li>
-    <li><a href="#chrome">Chrome</a></li>
-  </ul>
+  <nav class="navbar navbar-expand navbar-light bg-light">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#introduction">Introduction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ie">Internet Explorer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#firefox">Firefox</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#chrome">Chrome</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
   <h2 id="introduction">Introduction</h2>
 
@@ -38,13 +53,17 @@
     proposed by Hakon Wium Lie over Netscape's JavaScript Style Sheets (JSSS)
     by W3C.
   </p>
+  
+</div>
+  <div class="container">
+  <div class="row">
+    
 
-  <div class="browser-columns">
-
-  <div class="browser">
+  <div class="col">
     <h2 id="ie">A brief history of IE</h2>
 
   <img
+    class="float-start"
     src="https://upload.wikimedia.org/wikipedia/commons/1/18/Internet_Explorer_10%2B11_logo.svg"
     alt="Internet Explorer logo"
     width="100"
@@ -75,9 +94,10 @@
 
   </div>
 
-  <div class="browser">
+  <div class="col">
     <h2 id="firefox">A brief history of Firefox</h2>
   <img
+    class="float-start"
     src="http://upload.wikimedia.org/wikipedia/commons/f/ff/Mozilla_Firefox_logo_2013.png"
     alt="Firefox logo"
     width="100"
@@ -102,10 +122,11 @@
 
    </div>
 
-  <div class="browser">
-    <h2 id="chrome">A brief history of Chrome</h2>
+<div class="col">
+  <h2 id="chrome">A brief history of Chrome</h2>
 
   <img
+    class="float-start"
     src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg"
     alt="Google Chrome logo"
     width="100"
@@ -131,6 +152,7 @@
     and many businesses find that this arrangement does not meet their needs.
    </p>
 
+      </div>
   </div>
 </div>
 
